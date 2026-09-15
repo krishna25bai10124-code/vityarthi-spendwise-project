@@ -2,7 +2,34 @@
 
 ## Personal Expense Tracker
 
-This is a simple Java project to keep track of personal expenses.
+### 1. Project Overview
+
+SpendWise is a command-line based Personal Expense Manager developed using Java.
+
+The application helps users manage their personal finances by recording income and expenses, viewing transaction history, searching transactions, analyzing expenses by category, calculating the total income and expenses, and checking the available balance.
+
+The project is designed to run completely through the command line without requiring any graphical user interface.
+
+### 2. Objectives
+
+The main objectives of SpendWise are:
+
+1. To provide a simple way to record income and expenses.
+2. To maintain a history of financial transactions.
+3. To categorize expenses.
+4. To search transactions by category or date.
+5. To calculate total income and expenses.
+6. To calculate the remaining balance.
+7. To store transaction data using file handling.
+8. To demonstrate important Java programming concepts.
+
+### 3. Technologies Used
+
+-Java
+-Java Collections Framework
+-Java File Handling
+-Object-Oriented Programming
+-Command Line Interface
 
 ## Features
 
