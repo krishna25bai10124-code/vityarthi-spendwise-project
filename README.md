@@ -26,9 +26,13 @@ The main objectives of SpendWise are:
 ### 3. Technologies Used
 
 -Java
+
 -Java Collections Framework
+
 -Java File Handling
+
 -Object-Oriented Programming
+
 -Command Line Interface
 
 ## Features
