@@ -5,6 +5,13 @@ public class ExpenseManager {
     ArrayList<Expense> expenses = new ArrayList<>();
     String fileName = "data/expenses.txt";
     public void addExpense(Expense expense) {
+        for (Expense e : expenses) {
+            if (e.getId() == expense.getId()) {
+                System.out.println("Expense ID already exists.");
+                return;
+            }
+        }
+
         expenses.add(expense);
         saveExpenses();
         System.out.println("Expense added successfully!");
